@@ -1,0 +1,1 @@
+const staggerAnimation = (elements, delay) => { elements.forEach((element, index) => { element.style.animationDelay = `${delay * index}s`; }); }; staggerAnimation(document.querySelectorAll('input'), 0.2);
