@@ -1,0 +1,1 @@
+const inputs = document.querySelectorAll('input'); const button = document.querySelector('button'); inputs.forEach((input, index) => { input.addEventListener('animationend', () => { if (index === inputs.length - 1) { button.style.opacity = 1; } }); }); button.addEventListener('click', () => { console.log('تسجيل الدخول'); });
